@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasmus - Email Marketing Experts</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+    <style>
+        :root {
+            --navy-dark: #0A192F;
+            --navy: #112240;
+            --navy-light: #233554;
+            --beige: #F5F5DC;
+            --beige-dark: #E5E5CA;
+            --accent: #647AA3;
+        }
+
+        .bg-gradient-dark {
+            background: linear-gradient(to right, var(--navy-dark), var(--navy));
+        }
+        .bg-gradient-light {
+            background: linear-gradient(to bottom, var(--beige), #FFFFFF);
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-color: var(--navy-light);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .accent-color {
+            color: var(--accent);
+        }
+        .navy-bg {
+            background-color: var(--navy);
+        }
+        .navy-dark-bg {
+            background-color: var(--navy-dark);
+        }
+        .btn-primary {
+            background-color: var(--accent);
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: var(--navy-light);
+            transform: translateY(-2px);
+        }
+        .service-item {
+            transition: all 0.3s ease;
+        }
+        .service-item:hover {
+            transform: translateX(10px);
+        }
+        .text-navy {
+            color: var(--navy);
+        }
+        .text-navy-light {
+            color: var(--navy-light);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-light">
+    <!-- Hero Section -->
+    <header class="bg-gradient-dark text-white">
+        <div class="container mx-auto px-6 py-8">
+            <h1 class="text-3xl font-bold text-center">Hasmus</h1>
+        </div>
+        
+        <div class="container mx-auto px-6 py-24">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-5xl font-bold mb-6">Transform Your eCommerce Email Strategy</h2>
+                <p class="text-xl mb-8 opacity-90">Turn one-time buyers into loyal customers with data-driven email marketing and world-class copywriting that delivers results.</p>
+                <a href="https://app.lemcal.com/@hasmus/demo-call" 
+                   class="inline-flex items-center px-8 py-4 btn-primary rounded-md shadow-lg">
+                    Schedule a Consultation
+                    <i data-feather="mail" class="ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-24 container mx-auto px-6">
+        <h3 class="text-3xl font-bold text-center mb-16 text-navy">Why Choose Hasmus?</h3>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Feature Cards -->
+            <div class="card p-6 rounded-lg shadow-lg">
+                <div class="space-y-4">
+                    <i data-feather="shopping-cart" class="h-12 w-12 accent-color"></i>
+                    <h4 class="text-xl font-semibold text-navy">eCommerce Specialists</h4>
+                    <p class="text-navy-light">Focused exclusively on retail and eCommerce brands, understanding your unique challenges.</p>
+                </div>
+            </div>
+
+            <div class="card p-6 rounded-lg shadow-lg">
+                <div class="space-y-4">
+                    <i data-feather="users" class="h-12 w-12 accent-color"></i>
+                    <h4 class="text-xl font-semibold text-navy">Custom Automation</h4>
+                    <p class="text-navy-light">Personalized email sequences that engage customers at every stage.</p>
+                </div>
+            </div>
+
+            <div class="card p-6 rounded-lg shadow-lg">
+                <div class="space-y-4">
+                    <i data-feather="bar-chart" class="h-12 w-12 accent-color"></i>
+                    <h4 class="text-xl font-semibold text-navy">Data-Driven Results</h4>
+                    <p class="text-navy-light">Leverage analytics to optimize campaigns and maximize customer value.</p>
+                </div>
+            </div>
+
+            <div class="card p-6 rounded-lg shadow-lg">
+                <div class="space-y-4">
+                    <i data-feather="pen-tool" class="h-12 w-12 accent-color"></i>
+                    <h4 class="text-xl font-semibold text-navy">Expert Copywriting</h4>
+                    <p class="text-navy-light">Compelling, conversion-focused content that speaks to your audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copywriting Section -->
+    <section class="py-16 navy-bg text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h3 class="text-3xl font-bold mb-6">World-Class Copywriting</h3>
+                <p class="text-xl mb-8 opacity-90">Our expert copywriters craft compelling narratives that engage your audience, drive conversions, and build lasting customer relationships. Every word is strategically chosen to reflect your brand voice and resonate with your target market.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-center mb-16 text-navy">Our Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <!-- Service Items -->
+                <div class="service-item flex items-start gap-4">
+                    <i data-feather="check-circle" class="h-6 w-6 accent-color mt-1 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold mb-2 text-navy">Welcome Sequences</h4>
+                        <p class="text-navy-light">Create meaningful first impressions with expertly crafted welcome emails that convert new subscribers into customers.</p>
+                    </div>
+                </div>
+
+                <div class="service-item flex items-start gap-4">
+                    <i data-feather="check-circle" class="h-6 w-6 accent-color mt-1 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold mb-2 text-navy">Cart Recovery</h4>
+                        <p class="text-navy-light">Persuasive, well-timed campaigns that bring customers back to complete their purchase.</p>
+                    </div>
+                </div>
+
+                <div class="service-item flex items-start gap-4">
+                    <i data-feather="check-circle" class="h-6 w-6 accent-color mt-1 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold mb-2 text-navy">Loyalty Programs</h4>
+                        <p class="text-navy-light">Build lasting relationships with engaging content and targeted retention campaigns.</p>
+                    </div>
+                </div>
+
+                <div class="service-item flex items-start gap-4">
+                    <i data-feather="check-circle" class="h-6 w-6 accent-color mt-1 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="text-xl font-semibold mb-2 text-navy">Campaign Strategy</h4>
+                        <p class="text-navy-light">Data-driven promotional campaigns with compelling copy that drives engagement and sales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="navy-bg text-white py-24">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold mb-6">Ready to Grow Your Business?</h3>
+            <p class="text-xl mb-8 max-w-2xl mx-auto opacity-90">Let's discuss how Hasmus can help you create compelling email campaigns that resonate with your customers and drive results.</p>
+            <a href="https://app.lemcal.com/@hasmus/demo-call" 
+               class="inline-flex items-center px-8 py-4 btn-primary rounded-md shadow-lg">
+                Schedule a Consultation
+                <i data-feather="mail" class="ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="navy-dark-bg text-white/70 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h4 class="text-white text-lg font-bold mb-4">Hasmus</h4>
+            <p class="text-sm mb-4">Specialized email marketing and copywriting for eCommerce and retail brands.</p>
+            <p class="text-sm">© <script>document.write(new Date().getFullYear())</script> Hasmus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>
